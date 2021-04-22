@@ -1,11 +1,11 @@
-class AnswerModel {
+class AwnserModel {
   final String title;
   final bool isRight;
 
-  AnswerModel({required this.title, this.isRight = false});
+  AwnserModel({required this.title, this.isRight = false});
 
-  factory AnswerModel.fromMap(Map<String, dynamic> map) {
-    return AnswerModel(
+  factory AwnserModel.fromMap(Map<String, dynamic> map) {
+    return AwnserModel(
       title: map['title'] as String,
       isRight: map['isRight'] ?? false,
     );

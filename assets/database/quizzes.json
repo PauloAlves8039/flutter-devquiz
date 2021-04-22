@@ -27,7 +27,8 @@
         "title": "Está gostando da NLW?",
         "answers": [
           {
-            "title": "Sim, muito"
+            "title": "Sim, muito",
+            "isRight": true
           },
           {
             "title": "Sim, porém com algumas ressalvas"
